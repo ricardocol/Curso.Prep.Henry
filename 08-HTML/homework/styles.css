@@ -10,8 +10,12 @@ img {
     width: 600px;
     height: 500px;
     background-color: green;
-    padding: 50px;
     border: 10px solid blue;
+    padding: 50px;
+    margin: 50px;    
+    
+    
+    
 }
 
 #spanID {
