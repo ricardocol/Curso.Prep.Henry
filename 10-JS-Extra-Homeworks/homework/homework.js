@@ -57,10 +57,11 @@ function asAmirror(string) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-  var fraseEspejo = string.split(" ")(function (palabra) {
-    return palabra.split("").reverse().join("");
-  });
-  .join(" ");
+  var fraseEspejo = string
+    .split(" ")(function (palabra) {
+      return palabra.split("").reverse().join("");
+    })
+    .join(" ");
   //console.log({ fraseEspejo });
   return fraseEspejo;
 }
